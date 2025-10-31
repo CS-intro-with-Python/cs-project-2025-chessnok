@@ -1,0 +1,44 @@
+name: Build and Run Docker Image
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Set up Python
+        uses: actions/checkout@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build Docker image
+        run: |
+          docker build -t my-app:latest .
+
+      - name: Install uv
+        run: |
+          python -m pip install --upgrade pip
+          pip install uv
+
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run Docker container
+        run: |
+          docker run -d my-app:latest
+
+      # 5. Run tests
+      - name: Run tests
+        run: uv test
