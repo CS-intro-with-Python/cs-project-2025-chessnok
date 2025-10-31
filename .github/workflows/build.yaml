@@ -39,4 +39,4 @@ jobs:
 
       # 5. Run tests
       - name: Run tests
-        run: uv test
+        run: uv run pytest
