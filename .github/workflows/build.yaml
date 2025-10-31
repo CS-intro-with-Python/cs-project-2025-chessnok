@@ -35,7 +35,7 @@ jobs:
 
       - name: Run Docker container
         run: |
-          docker run -d my-app:latest
+          docker run -d -p 5000:5000 my-app:latest
 
       # 5. Run tests
       - name: Run tests
