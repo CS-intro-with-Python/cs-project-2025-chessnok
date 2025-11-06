@@ -8,13 +8,15 @@ All information about the school is stored in encrypted form, so even the creato
 
 ## Setup
 
-Describe the steps to set up the environment and run the application. This can be a bash script or docker commands.
+To run the project, you need to install the following:
+* Docker
+* Docker Compose
 
 ```
 Your commands
 
 ```
-
+For local development and running without docker, checkout [frontend/README.md](frontend/README.md) and [backend/README.md](backend/README.md) for more information accordingly.
 ## Requirements
 
 Describe technologies, libraries, languages you are using (this can be updated in the future).
