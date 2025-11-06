@@ -30,8 +30,7 @@ jobs:
 
       - name: Run isort (check only)
         working-directory: backend
-        run: |
-          isort --check-only ./
+        run: uv run isort --check-only ./
   test:
     name: Test Backend Code
     runs-on: ubuntu-latest
