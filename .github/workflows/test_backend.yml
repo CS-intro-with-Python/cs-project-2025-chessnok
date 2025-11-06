@@ -1,4 +1,4 @@
-name: Lint Backend
+name: Test Backend
 
 on:
   push:
@@ -9,8 +9,8 @@ on:
       - "backend/**"
 
 jobs:
-  lint:
-    name: Lint Backend Code
+  test:
+    name: Test Backend Code
     runs-on: ubuntu-latest
 
     steps:
