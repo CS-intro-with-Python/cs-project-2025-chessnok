@@ -13,7 +13,6 @@ from app.storage.s3 import get_s3_client
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Lifespan FastMCP
     try:
         async with engine.connect() as conn:
             await conn.execute(text("SELECT 1"))
