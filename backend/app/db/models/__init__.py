@@ -1,9 +1,10 @@
 """
-Импорт всех моделей для автоматического обнаружения Alembic.
-Все новые модели должны быть импортированы здесь.
+Import all models so that Base has them before being imported by Alembic.
 """
 
-
 from app.db.base import Base
+
 from .teacher import Teacher
-__all__ = ["Base", "Teacher"]
+from .user import User
+
+__all__ = ["Base", "Teacher", "User"]

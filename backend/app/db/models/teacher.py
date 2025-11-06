@@ -1,8 +1,10 @@
 """
 Модель Cell для хранения ячеек таблицы.
 """
-from sqlalchemy import Column, Integer, String, DateTime
+
+from sqlalchemy import Column, DateTime, Integer, String
 from sqlalchemy.sql import func
+
 from app.db.base import Base
 
 
@@ -14,4 +16,6 @@ class Teacher(Base):
     subject = Column(String, nullable=True)
 
     created_at = Column(DateTime(timezone=True), server_default=func.now())
-    updated_at = Column(DateTime(timezone=True), server_default=func.now(), onupdate=func.now())
+    updated_at = Column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now()
+    )

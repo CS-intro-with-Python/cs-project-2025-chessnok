@@ -3,11 +3,13 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
+
+from app.api.routes import ping
 from app.core.config import settings
 from app.core.logger import logger
-from app.api.routes import ping
 from app.db.session import engine
 from app.storage.s3 import get_s3_client
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

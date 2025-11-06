@@ -18,9 +18,15 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [
+dev = []
+lint = [
     "black>=25.9.0",
     "isort>=7.0.0",
-    "pre-commit>=4.3.0",
+]
+test = [
     "pytest>=8.4.2",
 ]
+
+[tool.isort]
+profile="black"
+skip = ["alembic", ".venv"]

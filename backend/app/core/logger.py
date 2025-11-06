@@ -1,5 +1,6 @@
 import logging
 
+
 def setup_logger():
     logging.basicConfig(
         level=logging.INFO,
@@ -7,5 +8,6 @@ def setup_logger():
     )
     logger = logging.getLogger("fastapi_app")
     return logger
+
 
 logger = setup_logger()

@@ -1,0 +1,38 @@
+name: Lint Backend
+
+on:
+  push:
+    paths:
+      - "backend/**"
+  pull_request:
+    paths:
+      - "backend/**"
+
+jobs:
+  lint:
+    name: Lint Backend Code
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          cd backend
+          uv sync --frozen --only-group lint
+
+      - name: Run Black (check only)
+        run: |
+          cd backend
+          black --check backend
+
+      - name: Run isort (check only)
+        run: |
+          cd backend
+          isort --check-only backend
