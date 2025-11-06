@@ -22,14 +22,8 @@ jobs:
 
       - name: Install dependencies
         working-directory: backend
-        run: uv sync --frozen --only-group lint
+        run: uv sync --frozen --group test
 
-      - name: Run Black (check only)
+      - name: Run Pytest
         working-directory: backend
-        run: uv run black --check ./
-
-      - name: Run isort (check only)
-        working-directory: backend
-        run: |
-          cd backend
-          isort --check-only backend
+        run: uv run pytest
