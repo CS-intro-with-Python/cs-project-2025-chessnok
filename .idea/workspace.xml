@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3619876e-69b7-4776-8555-689b9839cdba" name="Changes" comment="add user model migration, remove frontend test setup, and update dependencies">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/cs-project-2025-chessnok.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2025,_20_28_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_11_2025__20_28__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/alembic/versions/b8b25c5a0994_add_user_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/alembic/versions/b8b25c5a0994_add_user_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/test_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/tests/test_client.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Dockerfile" />
+        <option value="Python Script" />
+        <option value="GitHub Workflow" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chessnok&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:CS-intro-with-Python/cs-project-2025-chessnok.git&quot;,
+    &quot;accountId&quot;: &quot;f04eb669-f5a1-4afb-915b-0e86d59f5251&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="34poYS4oVK4hJ7xda27gMQBC1Fk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/chessnok/cs-project-2025-chessnok/.github/workflows",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/chessnok/cs-project-2025-chessnok/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/workflows" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/backend/app/core" />
+      <recent name="$PROJECT_DIR$/backend/app/db" />
+      <recent name="$PROJECT_DIR$/backend/app/storage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3619876e-69b7-4776-8555-689b9839cdba" name="Changes" comment="" />
+      <created>1761919924059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761919924059</updated>
+      <workItem from="1762009004955" duration="16000" />
+      <workItem from="1762009039113" duration="133000" />
+      <workItem from="1762014502095" duration="927000" />
+      <workItem from="1762450202560" duration="1023000" />
+      <workItem from="1762451244888" duration="11541000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lol">
+      <option name="closed" value="true" />
+      <created>1761921539370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761921539370</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lol">
+      <option name="closed" value="true" />
+      <created>1761921750464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761921750464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lol">
+      <option name="closed" value="true" />
+      <created>1761921869272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761921869272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lol">
+      <option name="closed" value="true" />
+      <created>1761921961710</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761921961710</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lol">
+      <option name="closed" value="true" />
+      <created>1761922074560</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761922074561</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lol">
+      <option name="closed" value="true" />
+      <created>1761924084461</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761924084461</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add lint workflows and update configurations">
+      <option name="closed" value="true" />
+      <created>1762465251048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762465251048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove Flask-related dependencies and configurations; update workflows and add `.gitignore` adjustments">
+      <option name="closed" value="true" />
+      <created>1762465984228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762465984229</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update linting configurations, enforce consistent quotes, and adjust workflows">
+      <option name="closed" value="true" />
+      <created>1762466197829</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762466197829</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add frontend testing configuration, update dependencies, and adjust workflows">
+      <option name="closed" value="true" />
+      <created>1762466711930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762466711930</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add user model migration, remove frontend test setup, and update dependencies">
+      <option name="closed" value="true" />
+      <created>1762467436411</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762467436411</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lol" />
+    <MESSAGE value="add lint workflows and update configurations" />
+    <MESSAGE value="update backend .gitignore to exclude IDE-specific files" />
+    <MESSAGE value="remove Flask-related dependencies and configurations; update workflows and add `.gitignore` adjustments" />
+    <MESSAGE value="update linting configurations, enforce consistent quotes, and adjust workflows" />
+    <MESSAGE value="add frontend testing configuration, update dependencies, and adjust workflows" />
+    <MESSAGE value="add user model migration, remove frontend test setup, and update dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user model migration, remove frontend test setup, and update dependencies" />
+  </component>
+</project>
