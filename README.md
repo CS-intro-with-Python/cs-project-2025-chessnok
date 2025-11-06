@@ -3,7 +3,8 @@
 
 ## Description
 
-Describe the project in 2-3 sentences (You can use more). 
+Many educational institutions today face the problem of creating schedules for students. These schedules should have as few gaps as possible and be tailored to the wishes of teachers and school administrators. My project is a website where representatives of educational institutions can easily generate their own schedules. All you need to do is enter data about teachers, students, lessons, and classes at the educational institution, and then the algorithm will select the optimal schedule option, which you can download from the website in convenient formats and for different roles (groups, students, teachers, etc.). 
+All information about the school is stored in encrypted form, so even the creators of the service cannot access personal data.
 
 ## Setup
 
