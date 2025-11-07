@@ -15,7 +15,7 @@ async def ping(db: AsyncSession = Depends(get_db_session)):
     db_version = result.scalar()
 
     return {
-        "message": "pong",
+        "message": "pongi",
         "database": "connected",
         "postgres_version": db_version.split(",")[0] if db_version else "unknown",
     }
